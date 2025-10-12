@@ -1,0 +1,13 @@
+first_name= "ritwika"
+last_name= "thirunahari"
+fullname= (first_name+last_name)
+extra=("holla")
+print("the first name is",first_name)
+print("the last name is", last_name)
+print("the full name is", fullname)
+print("this is something",extra)
+another= "chocolate"
+print(len(another))
+print(another[0])
+print(another[0:2])
+
