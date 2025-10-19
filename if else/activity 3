@@ -1,0 +1,10 @@
+number=int(input("enter a number"))
+calculation=number%2
+if (number>50):
+    if (calculation==0):
+        print("your number is even and correct")
+    else:
+        print("your number is odd and correct")
+else:
+    print("your number is wrong")51
+    
