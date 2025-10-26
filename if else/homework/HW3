@@ -1,0 +1,2 @@
+work_days=int(input("enter your number of working days:"))
+absent_days=int(input("enter your number of absent days:"))
