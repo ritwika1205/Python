@@ -1,0 +1,9 @@
+num=int(input("enter a number of your wish:"))
+def intro(num):
+    if num==1:
+        return 1
+    else:
+        return num*intro(num-1)
+output=intro(num)
+print(output)
+    
