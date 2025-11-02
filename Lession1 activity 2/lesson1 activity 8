@@ -1,0 +1,5 @@
+user_name=input("enter your name:")
+def intro(name):
+    print("this is", name,".")
+intro(user_name)
+

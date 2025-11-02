@@ -1,2 +1,18 @@
-work_days=int(input("enter your number of working days:"))
-absent_days=int(input("enter your number of absent days:"))
+# Taking input from the user
+x = int(input("Enter first number (x): "))
+y = int(input("Enter second number (y): "))
+z = int(input("Enter third number (z): "))
+
+# Sorting using simple comparisons
+if x > y:
+    x, y = y, x   # swap x and y
+if y > z:
+    y, z = z, y   # swap y and z
+if x > y:
+    x, y = y, x   # swap x and y again if needed
+
+# Printing result
+print("Values in ascending order:")
+print("x =", x)
+print("y =", y)
+print("z =", z)
