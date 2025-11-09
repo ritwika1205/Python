@@ -1,0 +1,29 @@
+import turtle
+
+# Set up the screen
+
+screen = turtle.Screen()
+
+screen.setup(width=600, height=400) # Optional: Set dimensions
+
+screen.bgcolor("lightblue") # Optional: Set background color
+
+screen.title("My Turtle Program") # Optional: Set window title
+
+# Create a turtle
+
+my_turtle = turtle.Turtle()
+
+my_turtle.shape("turtle")
+
+my_turtle.color("green")
+#drawing the turtle
+for i in range (4):
+    my_turtle.forward(100)
+    my_turtle.left(90) 
+    i=i+1
+screen.exitonclick()
+
+
+
+
