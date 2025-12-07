@@ -1,0 +1,7 @@
+my_tuple= ( "soya sauce", "rasgulla", "chocolate", "belgium", "car",5)
+print(my_tuple)
+slicing=my_tuple[0:5]
+print(slicing)
+print(my_tuple[0])
+n_tuple=(5,("belgium","car"),("soya sauce","rasgulla"))
+print(n_tuple)
