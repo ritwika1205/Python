@@ -1,0 +1,10 @@
+numbers = [10, 20, 30, 40, 50]
+import random
+original = random.choice(numbers)
+guess = int(input("Enter your guessed number: "))
+if guess > original:
+    print("Your guess is higher than the chosen number!")
+elif guess < original:
+    print("Your guess is smaller than the chosen number!")
+else:
+    print("Perfect! You guessed the correct number!")
