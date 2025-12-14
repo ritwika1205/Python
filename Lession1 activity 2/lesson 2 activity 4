@@ -1,0 +1,10 @@
+class student:
+    grade = 9
+    print (" hi i am a student of grade",grade)
+    sum = 2
+ob= student()
+print(ob.sum)
+    
+    
+
+     
