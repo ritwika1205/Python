@@ -1,0 +1,10 @@
+class student:
+    grade=9
+    name= "ritwika"
+    def introduction(self):
+        print("hi my name is", self.name)
+        print("hi i am from grade", self.grade)
+ob= student()
+ob.introduction()
+
+    
