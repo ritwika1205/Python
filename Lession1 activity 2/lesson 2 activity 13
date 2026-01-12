@@ -1,0 +1,7 @@
+details = ("Aman", "Sharma", 16, 170.5, 60, "Mathematics")
+
+# Convert tuple to list
+details_list = list(details)
+
+print("Tuple:", details)
+print("List:", details_list)
