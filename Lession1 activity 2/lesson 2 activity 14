@@ -1,0 +1,14 @@
+class Robot:
+    def __init__(self, name):
+        self.name = name
+
+    def introduce(self):
+        print("Hello, my name is", self.name)
+
+# Creating objects
+robot1 = Robot("Tom")
+robot2 = Robot("Jerry")
+
+# Robots introduce themselves
+robot1.introduce()
+robot2.introduce()
