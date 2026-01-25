@@ -1,7 +1,9 @@
 with open("lessonactivity\sample_doc (1).txt", "r") as file:
     data= file.readlines()
-    for line in data:
-        word= line.split()
-        print(word)
+    wordcount= 0
+for line in data:
+    word= line.split()
+    wordcount= wordcount + len(word)
+print(wordcount)
 file.close()
     
