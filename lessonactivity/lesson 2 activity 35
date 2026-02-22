@@ -1,0 +1,32 @@
+frrom tkinter import
+from tkinter import messagebox
+from PIL import image, imageTk
+root= Tk()
+root.title('Denomination Counter')
+root.configure(bg= 'light blue')
+root.geometry('6650x400')
+upload=image.open("app_img.jpg")
+image= imageTk.PhotoImage(upload)
+label= label(root, image= image, bg= 'light blue')
+label.place(x=180, y=20)
+label1= label(root,
+              text= "Hey user! welcome to denomination counter application!",
+              bg= 'light blue')
+label1.place(relx=0.5, y= 340, anchor= CENTER)
+def msg():
+    MsgBox= messagebox.showinfo(
+        "Alert!", "Do you want to calculate the ddeomination count?")
+        if MsgBox=='ok':
+            topwin()
+button1= Button(root, 
+                )
+         
+    
+    
+    
+
+
+
+
+
+               
