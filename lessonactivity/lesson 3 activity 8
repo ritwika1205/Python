@@ -1,0 +1,7 @@
+s = {2, 3, 7, 8, 9}
+for i in s:
+    if i == 10:
+        print("10 exists in the set")
+    else:
+        print("number does not exist in the list")
+        break
