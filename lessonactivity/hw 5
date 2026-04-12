@@ -1,0 +1,6 @@
+myfunction1(n):
+T(n) = Θ(1)
+
+myfunction2(n):
+T(n) = T(n-1) + Θ(1)
+Time Complexity = O(n)
